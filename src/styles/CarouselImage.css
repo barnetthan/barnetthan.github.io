@@ -1,0 +1,12 @@
+.resize_image {
+  width: auto;
+  height: 40vh;
+  align-items: center;
+  /* margin-left: 5vh;
+    margin-top: 3vh; */
+}
+
+.center_image {
+  display: flex;
+  align-items: center;
+}

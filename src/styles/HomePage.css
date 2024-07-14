@@ -1,0 +1,53 @@
+.home h1 {
+  font-size: 12vw;
+  margin: 0 0 0 0;
+  font-family: 'Roboto';
+}
+
+.home h2 {
+  font-size: 5vw;
+  margin: 0 0 0 0;
+  font-weight: normal;
+  font-family: 'Roboto';
+}
+
+.home h3 {
+  font-size: 1.8vw;
+  margin: 0 0 0 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  flex-basis: auto;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.main-container :first-child {
+  width: 60vw;
+}
+
+.info-container {
+  margin-top: 1vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.info-container > div {
+  margin: 5px;
+  font-size: 30px;
+}
+
+.info-container :first-child {
+  width: 25vw;
+  margin-right: 5vw;
+}
+
+.portrait {
+  width: auto;
+  height: 80vh;
+  margin-left: 5vh;
+  margin-top: 3vh;
+}
